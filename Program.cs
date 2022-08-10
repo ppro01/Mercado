@@ -48,11 +48,6 @@ class Program
         }
             return ProductName;
         }
-
-        /* for(int i = 0; i < ProductPrice.Length; i++)
-         {
-             Console.WriteLine("o produto {0} custa R${1}", ProductName[i], ProductPrice[i]);
-         }*/
 }
 
 

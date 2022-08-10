@@ -11,8 +11,8 @@ class Program
 
         for(int i = 0; i < price.Length; i++)
         {
-            if(price[i] < budget)
-            Console.WriteLine("o produto {0} custa {1} e cabe no seu orçamento", name[i],price[i]);
+            if(price[i] <= budget)
+            Console.WriteLine("o produto {0} custa {1} e cabe no seu orçamento de {2}", name[i],price[i],buget);
         }
         Console.ReadKey();
     }
